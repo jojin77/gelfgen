@@ -10,7 +10,7 @@ build:
   image_template: gelfgen-0.3
 deploy:
   context: jojin77/DEV
-  replicas: 3
+  replicas: 4
 properties:
   revision : 7
   TZ : Asia/Kolkata
