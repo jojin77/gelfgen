@@ -10,11 +10,11 @@ build:
   image_template: gelfgen-0.3
 deploy:
   context: jojin77/DEV
-  replicas: 4
+  replicas: 3
 properties:
   revision : 7
   TZ : Asia/Kolkata
   GELF_GRAYLOG_HOST : graylog-5-2.jojin77-dev
   GELF_GRAYLOG_PORT : 12201
-  GELF_GEN_PERIOD : 2000
+  GELF_GEN_PERIOD : 3000
   GELF_GEN_RATE : 100
