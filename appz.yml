@@ -16,5 +16,5 @@ properties:
   TZ : Asia/Kolkata
   GELF_GRAYLOG_HOST : graylog-5-2.jojin77-dev
   GELF_GRAYLOG_PORT : 12201
-  GELF_GEN_PERIOD : 500
-  GELF_GEN_RATE : 2000
+  GELF_GEN_PERIOD : 600
+  GELF_GEN_RATE : 1000
