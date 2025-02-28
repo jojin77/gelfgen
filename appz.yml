@@ -12,7 +12,7 @@ deploy:
   context: jojin77/DEV
   replicas: 3
 properties:
-  revision : 20
+  revision : 21
   TZ : Asia/Kolkata
   GELF_GRAYLOG_HOST : graylog-5-2.jojin77-dev
   GELF_GRAYLOG_PORT : 12201
